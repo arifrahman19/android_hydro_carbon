@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDarkBlack">#212121</color>
+    <color name="colorPrimaryBlack">#424242</color>
+    <color name="colorAccentBlack">#9E9E9E</color>
+
+    <color name="colorTitle">#212121</color>
+    <color name="colorSubtitle">#999999</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimaryRe">#FF4081</color>
+    <color name="colorPrimaryReDark">#de2262</color>
+    <color name="colorAccentRe">#3F51B5</color>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/nav_group_home"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home" />
+    </group>
+
+    <group android:id="@+id/nav_group_tutorial"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tutorial_alkana"
+            android:icon="@drawable/ic_alkana_24dp"
+            android:title="@string/nav_tutorial_alkana" />
+
+        <item
+            android:id="@+id/nav_tutorial_alkena"
+            android:icon="@drawable/ic_alkena_24dp"
+            android:title="@string/nav_tutorial_alkena" />
+
+        <item
+            android:id="@+id/nav_tutorial_alkuna"
+            android:icon="@drawable/ic_alkuna_24dp"
+            android:title="@string/nav_tutorial_alkuna" />
+    </group>
+
+    <group android:id="@+id/nav_group_readable"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ebook"
+            android:icon="@drawable/ic_ebook"
+            android:title="@string/nav_ebook" />
+
+        <item
+            android:id="@+id/nav_dictionary"
+            android:icon="@drawable/ic_dictionary"
+            android:title="@string/nav_dictionary" />
+    </group>
+
+    <group android:id="@+id/nav_group_work"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_quiz"
+            android:title="@string/nav_quiz" />
+
+        <item
+            android:id="@+id/nav_practice"
+            android:icon="@drawable/ic_practice"
+            android:title="@string/nav_practice" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_about"
+                android:title="@string/nav_about_us" />
+        </menu>
+    </item>
+
+</menu>
